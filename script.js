@@ -30,12 +30,24 @@ map.on('load', () => {
     });
 });
 
+
     map.on('click', 'listing_data', (e) => {
         // Copy coordinates array.
         const coordinates = e.features[0].geometry.coordinates.slice();
         const description_first_part = e.features[0].properties.address;
-        const description_second_part = e.features[0].properties.units.slice(1,-1);
-        const description = description_first_part + " " + description_second_part
+        //const description_second_part = e.features[0].properties.units.slice(1,-1);
+        const description_units = JSON.parse(e.features[0].properties.units);
+        let result = '';
+        if (description_units.length > 1) {
+            for (let i = 0; i < description_units.length; i++) {
+                result += `\nPrice: ${description_units[i].price}\nBeds: ${description_units[i].beds}\n`;
+            }
+        } else {
+            result += `Price: ${description_units[0].price}\nBeds: ${description_units[0].beds}`;
+        }
+        
+        const description = description_first_part + "\n" + "\n" + result;
+        
 
         if (['mercator', 'equirectangular'].includes(map.getProjection().name)) {
             while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
@@ -58,5 +70,4 @@ map.on('load', () => {
         map.getCanvas().style.cursor = '';
     });
 
-
-
+map.addControl(new mapboxgl.NavigationControl());
