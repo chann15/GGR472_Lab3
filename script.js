@@ -32,10 +32,9 @@ map.on('load', () => {
 
     map.on('click', 'listing_data', (e) => {
         // Copy coordinates array.
-        if 
         const coordinates = e.features[0].geometry.coordinates.slice();
         const description_first_part = e.features[0].properties.address;
-        const description_second_part = e.features[0].properties.units.slice(2,-1);
+        const description_second_part = e.features[0].properties.units.slice(1,-1);
         const description = description_first_part + " " + description_second_part
 
         if (['mercator', 'equirectangular'].includes(map.getProjection().name)) {
