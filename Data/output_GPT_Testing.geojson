@@ -1,0 +1,1456 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.39861,
+                    43.669453
+                ]
+            },
+            "properties": {
+                "zpid": "2055263360",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/50-Prince-Arthur-Ave-Toronto-ON-M5R-1B5/2055263360_zpid/",
+                "address": "50 Prince Arthur, 50 Prince Arthur Ave, Toronto, ON M5R 1B5",
+                "streetAddress": "50 Prince Arthur Ave",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5R1B5",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/26d7d80c30866f66078cfca37e4ff6e7-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 5086,
+                        "bedrooms": 2,
+                        "bathrooms": 2,
+                        "square feet": null
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.53625,
+                    43.63825
+                ]
+            },
+            "properties": {
+                "zpid": "43.63825--79.53625",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/building/43.63825,-79.53625_ll/",
+                "address": "35 Viking Ln, Toronto, ON",
+                "streetAddress": "35 Viking Ln   ",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M9B0A2",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/7da34e037efc420ab89ef0cdff1b2ea8-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,275+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,000+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.39459,
+                    43.711422
+                ]
+            },
+            "properties": {
+                "zpid": "43.711422--79.39459",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/19-erskine-ave-toronto-on-Cjg653/",
+                "address": "19 Erskine Ave, Toronto, ON",
+                "streetAddress": "19 Erskine Ave # 2210",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M4P1Y5",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/90c9a9a7e5d01b4b40ae51e3eb19e022-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,215+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,250+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.24518,
+                    43.7368
+                ]
+            },
+            "properties": {
+                "zpid": "43.7368--79.24518",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/2791-Eglinton-Ave-E-Toronto-ON/43.736801900942,-79.245181_ll/",
+                "address": "2791 Eglinton Ave E, Toronto, ON",
+                "streetAddress": "2791 Eglinton Ave E  # 514",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M1J0B3",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/1a269822655c9b5875b8eaafbbaace03-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,150+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,550+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.23128,
+                    43.766846
+                ]
+            },
+            "properties": {
+                "zpid": "447129973",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/51-Wantanopa-Cres-2-Toronto-ON-M1H-2B2/447129973_zpid/",
+                "address": "51 Wantanopa Cres #2, Toronto, ON M1H 2B2",
+                "streetAddress": "51 Wantanopa Cres #2",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M1H2B2",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/335cc524260e6a9e1ace51b19fa87ad4-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2095,
+                        "bedrooms": 2,
+                        "bathrooms": 1,
+                        "square feet": 1200
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.31723,
+                    43.69202
+                ]
+            },
+            "properties": {
+                "zpid": "447127520",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/679-Mortimer-Ave-2-Toronto-ON-M4C-2K1/447127520_zpid/",
+                "address": "679 Mortimer Ave #2, Toronto, ON M4C 2K1",
+                "streetAddress": "679 Mortimer Ave #2",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M4C2K1",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/edb70078afd8d3ac3e3a57a4b46e9ba1-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 1895,
+                        "bedrooms": 1,
+                        "bathrooms": 1,
+                        "square feet": 900
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.37741,
+                    43.660816
+                ]
+            },
+            "properties": {
+                "zpid": "2071851145",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/121-McGill-St-Toronto-ON-M5B-1H5/2071851145_zpid/",
+                "address": "121 McGill St, Toronto, ON M5B 1H5",
+                "streetAddress": "121 McGill St",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5B1H5",
+                "homeType": "SINGLE_FAMILY",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/6d5424f498e7e97ec604658d14f95dae-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2200,
+                        "bedrooms": 1,
+                        "bathrooms": 1,
+                        "square feet": 500
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.40558,
+                    43.637016
+                ]
+            },
+            "properties": {
+                "zpid": "43.637016--79.40558",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/219-fort-york-blvd-toronto-on-BMCMNZ/",
+                "address": "219 Fort York Blvd, Toronto, ON",
+                "streetAddress": "219 Fort York Blvd # 3305",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5V1B1",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/ae060c026a3713ac852bd5e8af3e5f36-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$1,900+",
+                        "beds": "0",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,450+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$6,000+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.35988,
+                    43.653404
+                ]
+            },
+            "properties": {
+                "zpid": "43.653404--79.35988",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/28-eastern-ave-toronto-on-BghTZ9/",
+                "address": "28 Eastern Ave, Toronto, ON",
+                "streetAddress": "28 Eastern Ave # 212",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5A0Y2",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/af1a5f15e0cb6b05c0b7459c3c7b7706-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$1,800+",
+                        "beds": "0",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,000+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,100+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,700+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.401215,
+                    43.641426
+                ]
+            },
+            "properties": {
+                "zpid": "43.641426--79.401215",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/apartments/toronto-on/27-bathurst-st/BWXBHn/",
+                "address": "27 Bathurst St, Toronto, ON",
+                "streetAddress": "27 Bathurst St # 1516W",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5V0R1",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/65ec3c066095f891c52015e6432ffc2f-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$1,800+",
+                        "beds": "0",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,300+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,250+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.541626,
+                    43.633453
+                ]
+            },
+            "properties": {
+                "zpid": "43.633453--79.541626",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/50-thomas-riley-rd-toronto-on-Byf2Y5/",
+                "address": "50 Thomas Riley Rd, Toronto, ON",
+                "streetAddress": "50 Thomas Riley Rd # 1409",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M9B0C3",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/556588bfd3d0f1285b232fcee0c807cd-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,350+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,450+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.41387,
+                    43.722935
+                ]
+            },
+            "properties": {
+                "zpid": "43.722935--79.41387",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/250-lawrence-ave-w-toronto-on-BMLF3h/",
+                "address": "250 Lawrence Ave W, Toronto, ON",
+                "streetAddress": "250 Lawrence Ave W  # 611",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5M1B2",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/55aa6076b2ec625ad69917006903132f-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,100+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,380+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$4,500+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.34521,
+                    43.77291
+                ]
+            },
+            "properties": {
+                "zpid": "43.77291--79.34521",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/32-forest-manor-rd-toronto-on-BSYBRM/",
+                "address": "32 Forest Manor Rd, Toronto, ON",
+                "streetAddress": "32 Forest Manor Rd # 1408",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M2J0C2",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/4ee06103208c6c1adcd62e1d4604f115-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,400+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,100+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.483246,
+                    43.736553
+                ]
+            },
+            "properties": {
+                "zpid": "43.736553--79.483246",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/60-george-butchart-dr-s-toronto-on-Cbg927/",
+                "address": "60 George Butchart Dr S, Toronto, ON",
+                "streetAddress": "60 George Butchart Dr S  # 421",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M3K0E1",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/6a3bde794f67b8095934abf8fb96aad0-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,500+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,950+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.37465,
+                    43.65368
+                ]
+            },
+            "properties": {
+                "zpid": "43.65368--79.37465",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/88-queen-st-e-toronto-on-BMLF93/",
+                "address": "88 Queen St E, Toronto, ON",
+                "streetAddress": "88 Queen St E  # 2308",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5C1S1",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/234900d9aa6257b32f8b5357c81f1e59-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,300+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,495+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.52575,
+                    43.646446
+                ]
+            },
+            "properties": {
+                "zpid": "43.646446--79.52575",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/7-mabelle-ave-etobicoke-on-BT8mzP/",
+                "address": "7 Mabelle Ave, Toronto, ON",
+                "streetAddress": "7 Mabelle Ave # 3210",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M9A0C9",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/177592177f657d457db8e0dd8fdb11ea-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,200+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,300+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,000+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.37925,
+                    43.662235
+                ]
+            },
+            "properties": {
+                "zpid": "43.662235--79.37925",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/building/43.662235,-79.37925_ll/",
+                "address": "403 Church St, Toronto, ON",
+                "streetAddress": "403 Church St # 504",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M4Y0C9",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/2c5df74151baa1ab0c37eb136c8f67ae-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,100+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,300+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,500+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.35905,
+                    43.81079
+                ]
+            },
+            "properties": {
+                "zpid": "43.81079--79.35905",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/4005-don-mills-rd-toronto-on-BMN4tW/",
+                "address": "4005 Don Mills Rd, Toronto, ON",
+                "streetAddress": "4005 Don Mills Rd # 324",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M2H3J9",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/12592b4455745fc736d132f0b6fdf8b6-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,750+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,300+",
+                        "beds": "3",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$3,450+",
+                        "beds": "4",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.44963,
+                    43.75652
+                ]
+            },
+            "properties": {
+                "zpid": "446925799",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/50-Goddard-St-Toronto-ON-M3H-5E1/446925799_zpid/",
+                "address": "50 Goddard St, Toronto, ON M3H 5E1",
+                "streetAddress": "50 Goddard St",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M3H5E1",
+                "homeType": "SINGLE_FAMILY",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/4244b60c37a117354db4f715624a2361-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2400,
+                        "bedrooms": 1,
+                        "bathrooms": 1,
+                        "square feet": 1250
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.33425,
+                    43.791664
+                ]
+            },
+            "properties": {
+                "zpid": "2063251453",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/23-Chalet-Rd-Toronto-ON-M2J-3V3/2063251453_zpid/",
+                "address": "23 Chalet Rd, Toronto, ON M2J 3V3",
+                "streetAddress": "23 Chalet Rd",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M2J3V3",
+                "homeType": "SINGLE_FAMILY",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/ec4d99bce14189d6d93f1cd936c96768-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 3000,
+                        "bedrooms": 3,
+                        "bathrooms": 1,
+                        "square feet": 2300
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.38793,
+                    43.67201
+                ]
+            },
+            "properties": {
+                "zpid": "43.67201--79.38793",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/18-yorkville-ave-toronto-on-BMJ8vr/",
+                "address": "18 Yorkville Ave, Toronto, ON",
+                "streetAddress": "18 Yorkville Ave # 2506",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M4W3Y8",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/b4be13a3a587448c6146aeeb4c48614c-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,325+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,750+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.29075,
+                    43.687466
+                ]
+            },
+            "properties": {
+                "zpid": "446860050",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/25-Philpott-Gdns-Toronto-ON-M4E-0A8/446860050_zpid/",
+                "address": "25 Philpott Gdns, Toronto, ON M4E 0A8",
+                "streetAddress": "25 Philpott Gdns",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M4E0A8",
+                "homeType": "TOWNHOUSE",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/3b52deba50abdbc682ada5b0b3e8ba0c-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2850,
+                        "bedrooms": 2,
+                        "bathrooms": 2,
+                        "square feet": 1025
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.2615,
+                    43.77258
+                ]
+            },
+            "properties": {
+                "zpid": "43.77258--79.2615",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/building/43.77258,-79.2615_ll/",
+                "address": "83 Borough Dr, Toronto, ON",
+                "streetAddress": "83 Borough Dr   # 1014",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M1P5E4",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/4d85b439b86dbdd4434344eccb503667-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,300+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,300+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.33692,
+                    43.774807
+                ]
+            },
+            "properties": {
+                "zpid": "43.774807--79.33692",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/275-yorkland-rd-near-don-mills-fairview-mall-toronto-on-BMCMBZ/",
+                "address": "275 Yorkland Rd, Toronto, ON",
+                "streetAddress": "275 Yorkland Rd   # 3101",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M2J0B4",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/f58be6ab973e69a5852c5f77f9565ed8-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,250+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,450+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.21141,
+                    43.799934
+                ]
+            },
+            "properties": {
+                "zpid": "43.799934--79.21141",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/45-gemshaw-cres-toronto-on-Cc3Tsz/",
+                "address": "45 Gemshaw Cres, Toronto, ON",
+                "streetAddress": "45 Gemshaw Cres # 3",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M1B1L3",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/0a911ef69e817414e08170d4a570b8ed-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,300+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,800+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.33473,
+                    43.71143
+                ]
+            },
+            "properties": {
+                "zpid": "43.71143--79.33473",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/building/43.71143,-79.33473_ll/",
+                "address": "725 Don Mills Rd, Toronto, ON",
+                "streetAddress": "725 Don Mills Rd ",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M3C1S6",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/bc6f72cc2addef32fb5514ad6d49eeff-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,125+",
+                        "beds": "1",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.40621,
+                    43.663544
+                ]
+            },
+            "properties": {
+                "zpid": "446856901",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/211-Brunswick-Ave-B-Toronto-ON-M5S-2M4/446856901_zpid/",
+                "address": "211 Brunswick Ave #B, Toronto, ON M5S 2M4",
+                "streetAddress": "211 Brunswick Ave #B",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5S2M4",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/2727f6f772668f38f39f93c63a9afa10-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 3200,
+                        "bedrooms": 3,
+                        "bathrooms": 1,
+                        "square feet": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.44841,
+                    43.645264
+                ]
+            },
+            "properties": {
+                "zpid": "446902758",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/197-Roncesvalles-Ave-2-Toronto-ON-M6R-2L5/446902758_zpid/",
+                "address": "197 Roncesvalles Ave #2, Toronto, ON M6R 2L5",
+                "streetAddress": "197 Roncesvalles Ave #2",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M6R2L5",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/24eb04c9ec6b3f5725f6def7674eb532-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2100,
+                        "bedrooms": 1,
+                        "bathrooms": 1,
+                        "square feet": 500
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.4072,
+                    43.669567
+                ]
+            },
+            "properties": {
+                "zpid": "446833903",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/64-Walmer-Rd-Toronto-ON-M5R-2X4/446833903_zpid/",
+                "address": "64 Walmer Rd, Toronto, ON M5R 2X4",
+                "streetAddress": "64 Walmer Rd",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5R2X4",
+                "homeType": "SINGLE_FAMILY",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/712d6ab5eddfbfce95b99b4314f5c714-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 3300,
+                        "bedrooms": 2,
+                        "bathrooms": 1,
+                        "square feet": 1360
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.442474,
+                    43.66576
+                ]
+            },
+            "properties": {
+                "zpid": "446827251",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/108-Lappin-Ave-Toronto-ON-M6H-1Y4/446827251_zpid/",
+                "address": "108 Lappin Ave, Toronto, ON M6H 1Y4",
+                "streetAddress": "108 Lappin Ave",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M6H1Y4",
+                "homeType": "SINGLE_FAMILY",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/8c660376db85f57644aa2e07baa77297-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2800,
+                        "bedrooms": 2,
+                        "bathrooms": 1,
+                        "square feet": null
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.16817,
+                    43.77397
+                ]
+            },
+            "properties": {
+                "zpid": "446827246",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/20-Minnacote-Ave-1-Toronto-ON-M1E-4B3/446827246_zpid/",
+                "address": "20 Minnacote Ave #1, Toronto, ON M1E 4B3",
+                "streetAddress": "20 Minnacote Ave #1",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M1E4B3",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/a163b4fff0afdd7c3b2a71ff3a257b68-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 3145,
+                        "bedrooms": 3,
+                        "bathrooms": 1,
+                        "square feet": 1300
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.30597,
+                    43.687073
+                ]
+            },
+            "properties": {
+                "zpid": "43.687073--79.30597",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/2369-danforth-ave-toronto-on-CZ2gGd/",
+                "address": "2369 Danforth Ave, Toronto, ON",
+                "streetAddress": "2369 Danforth Ave # 406",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M4C0B1",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/2f8d102e19bafad90b731a646cda07d2-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,095+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,500+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.39719,
+                    43.64044
+                ]
+            },
+            "properties": {
+                "zpid": "43.64044--79.39719",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/21-iceboat-ter-toronto-on-BMLMdg/",
+                "address": "21 Iceboat Ter, Toronto, ON",
+                "streetAddress": "21 Iceboat Ter  # 1615",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5V4A9",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/6dea1ce24e7e83b42729ed2e21527516-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,650+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.42598,
+                    43.639957
+                ]
+            },
+            "properties": {
+                "zpid": "339936582",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/15-Laidlaw-St-608-Toronto-ON-M6K-1X3/339936582_zpid/",
+                "address": "15 Laidlaw St #608, Toronto, ON M6K 1X3",
+                "streetAddress": "15 Laidlaw St #608",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M6K1X3",
+                "homeType": "TOWNHOUSE",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/23c5573fc6fdad0526a996eb2f1e7a30-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 3200,
+                        "bedrooms": 2,
+                        "bathrooms": 1,
+                        "square feet": 860
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.464264,
+                    43.752064
+                ]
+            },
+            "properties": {
+                "zpid": "43.752064--79.464264",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/building/43.752064,-79.464264_ll/",
+                "address": "10 De Boers Dr, Toronto, ON",
+                "streetAddress": "10 De Boers Dr   # Townhouse ",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M3J0H1",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/251d837e741a4f1602bd06e66b11a901-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,180+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,250+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.40305,
+                    43.64562
+                ]
+            },
+            "properties": {
+                "zpid": "2079700459",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/129-Bathurst-St-Toronto-ON-M5V-2R2/2079700459_zpid/",
+                "address": "129 Bathurst St, Toronto, ON M5V 2R2",
+                "streetAddress": "129 Bathurst St",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5V2R2",
+                "homeType": "TOWNHOUSE",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/e1b1be6a234049be00e9e76e71750b9c-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 5499,
+                        "bedrooms": 3,
+                        "bathrooms": 1,
+                        "square feet": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.37401,
+                    43.64356
+                ]
+            },
+            "properties": {
+                "zpid": "43.64356--79.37401",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/apartments/toronto-on/28-freeland-st/C6MB63/",
+                "address": "28 Freeland St, Toronto, ON",
+                "streetAddress": "28 Freeland St # 3510",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5E0E3",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/6abdb35e3958df17f13c320e1acbe8ec-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,300+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,400+",
+                        "beds": "2",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$4,050+",
+                        "beds": "3",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.42744,
+                    43.66383
+                ]
+            },
+            "properties": {
+                "zpid": "446709594",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/357-Concord-Ave-1-Toronto-ON-M6H-2P9/446709594_zpid/",
+                "address": "357 Concord Ave #1, Toronto, ON M6H 2P9",
+                "streetAddress": "357 Concord Ave #1",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M6H2P9",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/c7a6b7bd41d1369067a77f12ee50ded5-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 2250,
+                        "bedrooms": 1,
+                        "bathrooms": 1,
+                        "square feet": 1100
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.48376,
+                    43.735962
+                ]
+            },
+            "properties": {
+                "zpid": "43.735962--79.48376",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/b/building/43.735962,-79.48376_ll/",
+                "address": "50 George Butchart Dr, Toronto, ON",
+                "streetAddress": "50 George Butchart Dr ",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M3K1Y2",
+                "homeType": null,
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/7e730b880c9f7050d946e09de1b59aa2-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": "C$2,250+",
+                        "beds": "1",
+                        "roomForRent": false
+                    },
+                    {
+                        "price": "C$2,800+",
+                        "beds": "2",
+                        "roomForRent": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.41952,
+                    43.702034
+                ]
+            },
+            "properties": {
+                "zpid": "446705759",
+                "homeStatus": "FOR_RENT",
+                "detailUrl": "https://www.zillow.com/homedetails/45-Gardiner-Rd-536-Toronto-ON-M5P-3B6/446705759_zpid/",
+                "address": "45 Gardiner Rd #536, Toronto, ON M5P 3B6",
+                "streetAddress": "45 Gardiner Rd #536",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CAN",
+                "zipcode": "M5P3B6",
+                "homeType": "APARTMENT",
+                "currency": "CAD",
+                "imgSrc": "https://photos.zillowstatic.com/fp/f7795319e09520657a70cb029006e96d-p_e.jpg",
+                "hasImage": true,
+                "units": [
+                    {
+                        "price": 1950,
+                        "bedrooms": 1,
+                        "bathrooms": 1,
+                        "square feet": 700
+                    }
+                ]
+            }
+        }
+    ]
+}
