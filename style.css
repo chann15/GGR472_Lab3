@@ -21,11 +21,24 @@
     background-color: rgba(255, 255, 255, 0.7);
     bottom: 0;
     right: 0;
-    margin: 0 10px 30px 0; /*top margin, right margin, bottom margin, left margin*/
+    margin: 0 10px 30px 5px; /*top margin, right margin, bottom margin, left margin*/
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 200px;
+    max-width: 150px;
+}
+
+
+.title {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 0;
+    right: 0;
+    margin: 5px 10px 30px 5px; /*top margin, right margin, bottom margin, left margin*/
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
 }
 
 .legend h4 {

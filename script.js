@@ -8,6 +8,7 @@ const map = new mapboxgl.Map({
 });
 
 
+
 //This loads the map so it can be seen
 map.on('load', () => {
     // This adds the data that outlines the ski resort
@@ -53,6 +54,8 @@ map.on('load', () => {
 });
 
 
+
+
     map.on('click', 'listing_data', (e) => {
         // Copy coordinates array.
         const coordinates = e.features[0].geometry.coordinates.slice();
@@ -92,4 +95,4 @@ map.on('load', () => {
         map.getCanvas().style.cursor = '';
     });
 
-map.addControl(new mapboxgl.NavigationControl());
+map.addControl(new mapboxgl.NavigationControl(),'top-left');
