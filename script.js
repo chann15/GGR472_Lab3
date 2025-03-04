@@ -1,17 +1,17 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2hhbm5pNDIiLCJhIjoiY201cjdmdmJxMDdodTJycHc2a3ExMnVqaiJ9.qKDYRE5K3C9f05Cj_JNbWA'; // Add default public map token from your Mapbox account
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2hhbm5pNDIiLCJhIjoiY201cjdmdmJxMDdodTJycHc2a3ExMnVqaiJ9.qKDYRE5K3C9f05Cj_JNbWA';
 
+//This creates the map
 const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/lgsmith/cm7l6fly600t401qsfxp1cvyv', // or select existing mapbox style - https://docs.mapbox.com/api/maps/styles/
-    center: [-79.3832, 43.6532], // [Longitude, Latitude]
+    style: 'mapbox://styles/lgsmith/cm7l6fly600t401qsfxp1cvyv',
+    center: [-79.3832, 43.6532],
     zoom: 12.5,
 });
 
 
-
-//This loads the map so it can be seen
+//This loads the map data so it can beseen
 map.on('load', () => {
-    // This adds the data that outlines the ski resort
+    // This adds the data that outlines the listings
     map.addSource('listing_data', {
         type: 'geojson',
         data: 'https://raw.githubusercontent.com/chann15/GGR472_Lab3/refs/heads/main/Data/output_GPT_Testing.geojson', // Corrected URL
@@ -19,33 +19,34 @@ map.on('load', () => {
         clusterMaxZoom: 14, 
         clusterRadius: 50
     });
-
-    map.addLayer({
+    
+    //This changes the aesthetic layout of the data, in paritucalr what size and colour, depending on thje zooming in and grouping level.
+    map.addLayer({ 
         'id': 'listing_data',
         'type': 'circle',
         'source': 'listing_data',
         'paint': {
             'circle-radius': [
                 'step',
-                ['case', ['has', 'point_count'], ['get', 'point_count'], 1], // Default to 1 if not clustered
-                6,  // Single points (unclustered)
-                2, 14,  // 2 points
-                3, 16,  // 3 points
-                4, 18,  // 4 points
-                5, 20,  // 5 points
-                10, 25  // 10+ points
+                ['case', ['has', 'point_count'], ['get', 'point_count'], 1], 
+                6, 
+                2, 14, 
+                3, 16,  
+                4, 18,
+                5, 20,  
+                10, 25  
             ],
             'circle-color': [
                 'step',
-                ['case', ['has', 'point_count'], ['get', 'point_count'], 1], // Default to 1 if not clustered
-                '#0066cc',  // Default color for single points
+                ['case', ['has', 'point_count'], ['get', 'point_count'], 1], 
+                '#0066cc',  
                 2, '#8dd3c7', 
                 3, '#fdb462', 
                 4, '#fb8072', 
                 5, '#bebada', 
                 10, '#ff5733'
             ],
-            'circle-opacity': 1 // Fully opaque
+            'circle-opacity': 1 
         }
     });
     
@@ -54,13 +55,10 @@ map.on('load', () => {
 });
 
 
-
-
+    //This allows the uers to click the actual data point, as well as dispalys the existing data. 
     map.on('click', 'listing_data', (e) => {
-        // Copy coordinates array.
         const coordinates = e.features[0].geometry.coordinates.slice();
         const description_first_part = e.features[0].properties.address;
-        //const description_second_part = e.features[0].properties.units.slice(1,-1);
         const description_units = JSON.parse(e.features[0].properties.units);
         let result = '';
         if (description_units.length > 1) {
@@ -86,13 +84,15 @@ map.on('load', () => {
         .addTo(map);
     });
 
+    // This changes the mouse icon
     map.on('mouseenter', 'listing_data', () => {
         map.getCanvas().style.cursor = 'pointer';
     });
 
-    // Change it back to a pointer when it leaves.
+    // This changes the mouse icon
     map.on('mouseleave', 'listing_data', () => {
         map.getCanvas().style.cursor = '';
     });
 
+    //this just adds in map controls
 map.addControl(new mapboxgl.NavigationControl(),'top-left');
