@@ -13,21 +13,43 @@ map.on('load', () => {
     // This adds the data that outlines the ski resort
     map.addSource('listing_data', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/chann15/GGR472_Lab3/refs/heads/main/Data/output_GPT_Testing.geojson' // Corrected URL
+        data: 'https://raw.githubusercontent.com/chann15/GGR472_Lab3/refs/heads/main/Data/output_GPT_Testing.geojson', // Corrected URL
+        cluster: true,
+        clusterMaxZoom: 14, 
+        clusterRadius: 50
     });
 
-    // This provides a physical aesthetic element to the data
     map.addLayer({
         'id': 'listing_data',
         'type': 'circle',
         'source': 'listing_data',
         'paint': {
-            'circle-radius': 6,  // Adjust size as needed
-            'circle-color': '#0000FF', // blue color
-            'circle-opacity': 0.8 // Slight transparency
+            'circle-radius': [
+                'step',
+                ['case', ['has', 'point_count'], ['get', 'point_count'], 1], // Default to 1 if not clustered
+                6,  // Single points (unclustered)
+                2, 14,  // 2 points
+                3, 16,  // 3 points
+                4, 18,  // 4 points
+                5, 20,  // 5 points
+                10, 25  // 10+ points
+            ],
+            'circle-color': [
+                'step',
+                ['case', ['has', 'point_count'], ['get', 'point_count'], 1], // Default to 1 if not clustered
+                '#0066cc',  // Default color for single points
+                2, '#8dd3c7', 
+                3, '#fdb462', 
+                4, '#fb8072', 
+                5, '#bebada', 
+                10, '#ff5733'
+            ],
+            'circle-opacity': 1 // Fully opaque
         }
-        
     });
+    
+    
+    
 });
 
 

@@ -46,21 +46,25 @@
 
 /* Add colour to each child div in legend */
 .legend div:nth-child(2) span {
-    background-color: #fd8d3c; /* set background colour of span */
+    background-color: #0066cc; /* set background colour of span */
 }
 
 .legend div:nth-child(3) span {
-    background-color: #fc4e2a;
+    background-color: #8dd3c7;
 }
 
 .legend div:nth-child(4) span {
-    background-color: #e31a1c;
+    background-color: #fdb462;
 }
 
 .legend div:nth-child(5) span {
-    background-color: #bd0026;
+    background-color: #fb8072;
 }
 
 .legend div:nth-child(6) span {
-    background-color: #800026;
+    background-color: #bebada;
+}
+
+.legend div:nth-child(7) span {
+    background-color: #ff5733;
 }
