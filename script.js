@@ -63,13 +63,13 @@ map.on('load', () => {
         let result = '';
         if (description_units.length > 1) {
             for (let i = 0; i < description_units.length; i++) {
-                result += `\nPrice: ${description_units[i].price}\nBeds: ${description_units[i].beds}\n`;
+                result += `<br> Price: ${description_units[i].price} <br> Beds: ${description_units[i].beds}<br>`;
             }
         } else {
-            result += `Price: ${description_units[0].price}\nBeds: ${description_units[0].beds}`;
+            result += `<br> Price: ${description_units[0].price} <br> Beds: ${description_units[0].beds} <br>`;
         }
         
-        const description = description_first_part + "\n" + "\n" + result;
+        const description = description_first_part + "<br>" + result;
         
 
         if (['mercator', 'equirectangular'].includes(map.getProjection().name)) {
