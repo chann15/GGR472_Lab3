@@ -56,6 +56,7 @@ map.on('load', () => {
 
 
     //This allows the uers to click the actual data point, as well as dispalys the existing data. 
+
     map.on('click', 'listing_data', (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
         const description_first_part = e.features[0].properties.address;
@@ -84,6 +85,7 @@ map.on('load', () => {
         .addTo(map);
     });
 
+    
     // This changes the mouse icon
     map.on('mouseenter', 'listing_data', () => {
         map.getCanvas().style.cursor = 'pointer';
